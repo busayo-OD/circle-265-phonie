@@ -1,0 +1,140 @@
+
+.index-body{
+    padding: 10px 5%;
+    font-family: sans-serif;
+}
+.form-body{
+    padding: 0;
+    margin: 0;
+    display: grid;
+    grid-template-columns: 0.8fr 1fr;
+}
+
+.section1{
+    background-image: url('/back.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+.section2{
+  padding: 20px 50px;
+}
+
+label{
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.input-div{
+    width: 100%; 
+    margin: 20px auto;
+    
+}
+
+input:focus{
+    outline-color: red;
+    outline: none !important;
+    border:1px solid red;
+    box-shadow: 0 0 2px #017A9B;
+}
+.message *{
+    vertical-align: top;
+    height: 100px; 
+    padding: 10px 10px;
+}
+
+#message-label{
+    padding: 0;
+}
+
+#submit-btn, .submit-btn{
+    background-color: #017A9B;
+    height: 40px;
+    color: white;
+    border-width: 0;
+    width: 40%;
+    border-radius: 10px;
+    box-shadow: 1px 1px 3px gray;
+}
+
+
+/* REGISTER */
+.reg-form{
+    width: 70%;
+    padding: 30px 50px;
+}
+.input-reg{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    font-size: 13px;
+}
+.input-reg input{
+    height: 34px;
+    border-radius: 8px;
+    border: 0.5px solid gray;
+    margin-bottom: 20px;
+}
+.input-reg input{
+    border: 0.5px solid 017A9B;
+}
+.email-input{
+    grid-template-columns: 1fr;
+}
+.input-reg .submit-btn2{
+    margin-top: 10px;
+    height: 40px;
+    width: 100px;
+}
+.input-reg .submit-btn2:hover{
+    background-color: white;
+    height: 40px;
+    color: #017A9B;
+}
+#phone{
+    padding-left: 10px;
+}
+.list{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    background-color: white;
+    border-radius: 0 0 10px 10px;
+    overflow:hidden;
+}
+.list:hover{
+    border-radius: 0 0 10px 10px;
+}
+.list li{
+    padding: 10px 5px;
+    
+}
+.list li:hover{
+    background-color: #dddddd;
+}
+
+.list-div{
+    position: fixed;
+    width: 20%;
+    
+}
+
+#country {
+    border: 0.5px solid gray;
+    outline: none;
+    height: 35px;
+    font-size: 13px;
+    width: 100%;
+    margin-bottom: 12px;
+}
+
+.controls {
+    display: flex;
+  }
+  
+.radio {
+    flex: 1 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-weight: 400;
+    margin-bottom: 10px;
+  }
