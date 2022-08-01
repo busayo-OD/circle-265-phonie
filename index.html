@@ -2,90 +2,88 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Phonie_Project</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Phonie_Project</title>
 </head>
 
-<body>
+<body class="form-body">
+  <section class="section1"></section>
+  <section class="section2">
+    <div class="reg-form">
+      <form action="" method="">
+        <div class="form-container">
+          <h1 style="text-align: center;">Phonie</h1>
 
-     <section class="section1"></section>
-    <section class="section2">
-        <div class="reg-form">
-            <form action="" method="">
-                <div class="form-container">
-                    <h1 style="text-align: center;">Phonie</h1>
-    
-                    <div class="input-reg email-input txt-mail">
-                        <label for="username">Username</label>
-                        <input id="username"  type="text" name="username" >
-                    </div>
+          <div class="input-reg email-input txt-mail">
+            <label for="username">Username</label>
+            <input id="username" type="text" name="username">
+          </div>
 
-                    <div class="">
-                        <select id="country" onchange="country_code()">
-                            <option value="select country">select country</option>
-                            <option value="Argentina">&#x1F1E6;&#x1F1F7; Argentina</option>
-                            <option value="Australia">&#x1F1E6;&#x1F1FA; Australia</option>
-                            <option value="Belgium">&#x1F1E7;&#x1F1EA; Belgium</option>
-                            <option value="Brazil">&#x1F1E7;&#x1F1F7; Brazil</option>
-                            <option value="Canada">&#x1F1E8;&#x1F1E6; Canada</option>
-                            <option value="Cyprus">&#x1F1E8;&#x1F1FE; Cyprus</option>
-                            <option value="Denmark">&#x1F1E9;&#x1F1F0; Denmark</option>
-                            <option value="France">&#x1F1EB;&#x1F1F7; France</option>
-                            <option value="Ghana">&#x1F1EC;&#x1F1ED; Ghana</option>
-                            <option value="Italy">&#x1F1EE;&#x1F1F9; Italy</option>
-                            <option value="Mexico">&#x1F1F2;&#x1F1FD; Mexico</option>
-                            <option value="Nigeria">&#x1F1F3;&#x1F1EC; Nigeria</option>
-                            <option value="Zambia">&#x1F1FF;&#x1F1F2; Zambia</option>
-                          </select>
-                    </div>
+          <div class="">
+            <select id="country" onchange="country_code()">
+              <option value="select country">select country</option>
+              <option value="Argentina">&#x1F1E6;&#x1F1F7; Argentina</option>
+              <option value="Australia">&#x1F1E6;&#x1F1FA; Australia</option>
+              <option value="Belgium">&#x1F1E7;&#x1F1EA; Belgium</option>
+              <option value="Brazil">&#x1F1E7;&#x1F1F7; Brazil</option>
+              <option value="Canada">&#x1F1E8;&#x1F1E6; Canada</option>
+              <option value="Cyprus">&#x1F1E8;&#x1F1FE; Cyprus</option>
+              <option value="Denmark">&#x1F1E9;&#x1F1F0; Denmark</option>
+              <option value="France">&#x1F1EB;&#x1F1F7; France</option>
+              <option value="Ghana">&#x1F1EC;&#x1F1ED; Ghana</option>
+              <option value="Italy">&#x1F1EE;&#x1F1F9; Italy</option>
+              <option value="Mexico">&#x1F1F2;&#x1F1FD; Mexico</option>
+              <option value="Nigeria">&#x1F1F3;&#x1F1EC; Nigeria</option>
+              <option value="Zambia">&#x1F1FF;&#x1F1F2; Zambia</option>
+            </select>
+          </div>
 
-                    <div class="controls">
-                        <label class="radio">
-                          <input type="radio" name="network" value="mtn">
-                          MTN
-                        </label>
-                        <label class="radio">
-                           <input type="radio" name="network" value="glo">
-                          GLO
-                        </label>
-                        <label class="radio">
-                          <input type="radio" name="network" value="airtel">
-                          AIRTEL
-                        </label>
-                        
-                        <label class="radio">
-                          <input type="radio" name="network" value="9mobile" >
-                          9MOBILE
-                        </label>
-                        <label class="radio">
-                            <input type="radio" name="network" value="all" >
-                            ALL
-                          </label>
-                      </div>
-                    
-                    <div class="input-reg email-input">
-                        <label for="phone">Phone Number</label>
-                        <input id="phone"  type="tel" name="phone" minlength="10" maxlength="14" onchange="num()">
-                    </div>
-                    <div class="list-div">
-                        <ul class="list"></ul>
-                    </div>
-                    
-                    <div class="input-reg email-input">
-                        <input class="submit-btn submit-btn2" type="submit" value="Check Number">
-                    </div>
+          <div class="controls">
+            <label class="radio">
+              <input type="radio" name="network" value="mtn">
+              MTN
+            </label>
+            <label class="radio">
+              <input type="radio" name="network" value="glo">
+              GLO
+            </label>
+            <label class="radio">
+              <input type="radio" name="network" value="airtel">
+              AIRTEL
+            </label>
 
-                </div>
-            </form>
+            <label class="radio">
+              <input type="radio" name="network" value="9mobile">
+              9MOBILE
+            </label>
+            <label class="radio">
+              <input type="radio" name="network" value="all">
+              ALL
+            </label>
+          </div>
+
+          <div class="input-reg email-input">
+            <label for="phone">Phone Number</label>
+            <input id="phone" type="tel" name="phone" minlength="10" maxlength="14">
+          </div>
+          <div class="list-div">
+            <ul class="list"></ul>
+          </div>
+
+          <div class="input-reg email-input">
+            <input class="submit-btn submit-btn2" type="submit" value="Check Number">
+          </div>
+
         </div>
-    </section>
+      </form>
+    </div>
+  </section>
 
-  <!-- // ============= EEND DO NOT EDIT ============== // -->
-  <script src="index.mjs" type="module"></script>
-  <!-- // ============= EEND DO NOT EDIT ============== // -->
+  <!--   <script type="module" src="index.mjs"></script> -->
+  <script src="script.js" defer></script>
 </body>
 
 </html>
